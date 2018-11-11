@@ -7,8 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start:server": "cd backend && nodemon server.js --exec babel-node --presets es2015,stage-0",
-    "start:client": "cd client && yarn start",
-    "start:dev": "concurrently \"yarn start:server\" \"yarn start:client\""
+    "start:client_yarn": "cd client && yarn start",
+    "start:client_npm": "cd client && npm start",
+    "start:dev": "concurrently \"yarn start:server\" \"yarn start:client_yarn\"",
+    "start:npm": "concurrently \"npm run start:server\" \"npm run start:client_npm\""
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
