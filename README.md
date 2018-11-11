@@ -1,7 +1,7 @@
 # MERN SocialApp
 Mangoes_Express_Reaction_Nodes </br>
 <h2> Installation </h2>
-install at dir for our express server and in client </br>
+install at dir for our express server and our client </br>
 yarn install </br>
 OR </br>
 npm install </br>
